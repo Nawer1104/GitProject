@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo form đơn giản</title>
+</head>
+<body>
+<h1 align="center">Điền sở thích của bạn vào đây:</h1>
+<form method="get" action="Taoformdongian.html">
+      <table width="400" align="center" cellpadding="5" border="0">
+          <tr>
+              <th colspan="2">SỞ THÍCH CỦA BẠN</th>
+          </tr>
+          <tr>
+              <td>Họ và tên</td>
+              <td><input type="text" name="yourname" size="35" placeholder="Tên gì chả được" ></td>
+          </tr>
+          <tr>
+              <td>Email</td>
+              <td><input type="email" name="email" size="25" placeholder="CodeGym1@gmail.com"></td>
+          </tr>
+          <tr>
+              <td>Sở thích</td>
+              <td>
+              <label>
+                  <input type="checkbox" name="hobby"> Thể thao
+              </label>
+              <label>
+                  <input type="checkbox" name="hobby"> Âm nhạc
+              </label>
+                  <label>
+                      <input type="checkbox" name="hobby"> Đọc sách
+                  </label><br>
+                  <label>
+                      <input type="checkbox" name="hobby"> Lướt web
+                  </label>
+                  <label>
+                      <input type="checkbox" name="hobby"> Chơi game
+                  </label>
+                  <label>
+                      <input type="checkbox" name="hobby"> Điện ảnh
+                  </label><br>
+                  <label>
+                      <input type="checkbox" name="hobby"> Du lịch
+                  </label>
+              </td>
+          </tr>
+          <tr>
+              <td colspan="2" align="center">
+                  <input type="reset" name="reset" value="Nhập lại">
+                  <input type="submit" name="submit" value="Gửi thông tin">
+              </td>
+          </tr>
+      </table>
+</form>
+</body>
+</html>

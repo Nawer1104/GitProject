@@ -1,10 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Tạo form đơn giản</title>
 </head>
 <body>
-$END$
+<h1 align="center">PLEASE FILL THIS FORM BELOW CORECTLY</h1>
+<form method="get" action="Taoformdongian2.html">
+    <table align="center" border="0" cellpadding="5">
+        <tr>
+            <th colspan="2">REGISTRATION FORM</th>
+        </tr>
+        <tr>
+            <td>Student's name</td>
+            <td><input type="text" name="name" size="35" placeholder="Your full name" required></td>
+        </tr>
+        <tr>
+            <td>Day of birth</td>
+            <td><input type="date" name="bod" size="25" required></td>
+        </tr>
+        <tr>
+            <td>Sex</td>
+            <td>
+                <label>
+                    <input type="radio" name="sex" id="male">Male
+                </label>
+                <label>
+                    <input type="radio" name="sex" id="female">Female
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td>
+                <textarea cols="35" required>
+                </textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>Class</td>
+            <td>
+                <select name="classname">
+                    <option value="Chose your class">Chose your class</option>
+                    <option value="Chose your class">Class 1</option>
+                    <option value="Chose your class">Class 2</option>
+                    <option value="Chose your class">Class 3</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>
+                <input type="email" name="email" size="30" required>
+            </td>
+        </tr>
+        <tr>
+            <td>Phone number</td>
+            <td>
+                <input type="number" name="phonenumber" size="30" required>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" name="submit" value="Send">
+                <input type="reset" name="reset" value="Reset">
+            </td>
+        </tr>
+    </table>
+</form>
 </body>
 </html>

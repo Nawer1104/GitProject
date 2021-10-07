@@ -1,0 +1,27 @@
+.October {
+    padding: 15px;
+    color: blue;
+    font-size: 30px;
+}
+.trthu2 {
+    padding: 20px;
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: white;
+    border-width: 1px;
+    background-color: goldenrod;
+    color: white;
+    font-size: 15px;
+}
+.cn {
+    background-color: #d61b06;
+}
+.t7 {
+    background-color: blue;
+ }
+.red {
+    color: #d61b06;
+}
+.blue {
+    color: blue;
+}

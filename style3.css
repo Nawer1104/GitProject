@@ -1,0 +1,36 @@
+.title {
+    padding: 15px;
+color: blue;
+font-size: 30px
+}
+.content {
+    color: cornflowerblue;
+    font-size: 20px;
+    text-align: left;
+}
+.content2 {
+    color: cornflowerblue;
+    font-size: 20px;
+    text-align: right;
+}
+.table2 {
+    border-collapse: collapse;
+    width: 30%;
+
+}
+.day {
+    border: 1px solid black;
+}
+.days {
+    border: 1px solid black;
+    background-color: yellow;
+    padding: 10px;
+}
+.wtd {
+    border: 1px solid black;
+    background-color: goldenrod;
+    padding: 10px;
+}
+tbody {
+    padding: 10px;
+}

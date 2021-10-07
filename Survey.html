@@ -3,6 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Market Research Survey</title>
+    <style>
+        table {
+            text-align: center;
+            border-collapse: collapse;
+            width: 40%;
+        }
+        th, td {
+            padding: 8x;
+        }
+        tr:nth-child(even) {background-color: #f2f2f2;}
+
+    </style>
 </head>
 <body>
 <form action="Survey.html" method="get">
@@ -46,9 +58,11 @@
     </div>
     <label><strong>What would you pay for the new product.</strong></label>
     <div>
-       $ <input type="text" name="text" size="5" id="dolla"> . <input type="text" name="text" size="1" id="cent"><br/>
-        <label for="dolla">Dollars</label>
-        <label for="cent">Cents</label>
+       $
+        <label for="dolla"> <input type="text" name="text" size="5" id="dolla"><br>
+        Dollars</label>
+
+        <label for="cent"><input type="text" name="text" size="1" id="cent"><br/>Cents</label>
     </div>
     <label><strong>What features would you like to see in the new product.</strong></label>
     <div>
@@ -70,58 +84,70 @@
         <tr role="radiogroup">
         <th>Our product are priced fairly</th>
             <td title="Strongly Disagree">
-                <input type="radio" id="1" value="Strongly Disagree" role="radio" name="rd1">
-                <label for="1">1</label>
+                <label for="1">
+                <input type="radio" id="1" value="Strongly Disagree" role="radio" name="rd1"><br>1
+                </label>
             </td>
             <td title="Disagree">
-                <input type="radio" id="2" value="Disagree" role="radio" name="rd1">
-                <label for="2">2</label>
+                <label for="2">
+                <input type="radio" id="2" value="Disagree" role="radio" name="rd1"><br>
+                2</label>
             </td>
             <td title="Agree">
-                <input type="radio" id="3" value="Agree" role="radio" name="rd1">
-                <label for="3">3</label>
+                <label for="3">
+                <input type="radio" id="3" value="Agree" role="radio" name="rd1"><br>
+                3</label>
             </td>
             <td title="Strongly Agree">
-                <input type="radio" id="4" value="Strongly Agree" role="radio" name="rd1">
-                <label for="4">4</label>
+                <label for="4">
+                <input type="radio" id="4" value="Strongly Agree" role="radio" name="rd1"><br>
+                4</label>
             </td>
         </tr>
         <tr role="radiogroup">
             <th>Our product are high quality</th>
             <td title="Strongly Disagree">
-                <input type="radio" id="11" value="Strongly Disagree" role="radio" name="rd2">
-                <label for="11">1</label>
+                <label for="11">
+                <input type="radio" id="11" value="Strongly Disagree" role="radio" name="rd2"><br>
+                1</label>
             </td>
             <td title="Disagree">
-                <input type="radio" id="22" value="Disagree" role="radio" name="rd2">
-                <label for="22">2</label>
+                <label for="22">
+                <input type="radio" id="22" value="Disagree" role="radio" name="rd2"><br>
+                2</label>
             </td>
             <td title="Agree">
-                <input type="radio" id="33" value="Agree" role="radio" name="rd2">
-                <label for="33">3</label>
+                <label for="33">
+                <input type="radio" id="33" value="Agree" role="radio" name="rd2"><br>
+                3</label>
             </td>
             <td title="Strongly Agree">
-                <input type="radio" id="44" value="Strongly Agree" role="radio" name="rd2">
-                <label for="44">4</label>
+                <label for="44">
+                <input type="radio" id="44" value="Strongly Agree" role="radio" name="rd2"><br>
+                4</label>
             </td>
         </tr>
         <tr role="radiogroup">
             <th>You would recommend our product to a friend of coworker</th>
             <td title="Strongly Disagree">
-                <input type="radio" id="111" value="Strongly Disagree" role="radio" name="rd3">
-                <label for="111">1</label>
+                <label for="111">
+                <input type="radio" id="111" value="Strongly Disagree" role="radio" name="rd3"><br>
+                1</label>
             </td>
             <td title="Disagree">
-                <input type="radio" id="222" value="Disagree" role="radio" name="rd3">
-                <label for="222">2</label>
+                <label for="222">
+                <input type="radio" id="222" value="Disagree" role="radio" name="rd3"><br>
+                2</label>
             </td>
             <td title="Agree">
-                <input type="radio" id="333" value="Agree" role="radio" name="rd3">
-                <label for="333">3</label>
+                <label for="333">
+                <input type="radio" id="333" value="Agree" role="radio" name="rd3"><br>
+                3</label>
             </td>
             <td title="Strongly Agree">
-                <input type="radio" id="444" value="Strongly Agree" role="radio" name="rd3">
-                <label for="444">4</label>
+                <label for="444">
+                <input type="radio" id="444" value="Strongly Agree" role="radio" name="rd3"><br>
+                4</label>
             </td>
         </tr>
         </tbody>
